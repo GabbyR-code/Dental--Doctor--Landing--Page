@@ -39,8 +39,9 @@ itemFaq.forEach(function(item){
 
 //  Treatment option selection - display selected treatment option, enhance functional scope
 
-const planButtons = document.querySelectorAll(".bth-plan");
+const planButtons = document.querySelectorAll(".btn-plan");
 const selectedPlan = document.getElementById("selectedPlan");
+const treatmentSelect = document.getElementById("treatment");
 planButtons.forEach(function(button){
     button.addEventListener("click", function(){
         const planName = button.getAttribute("data-plan");
@@ -51,13 +52,18 @@ planButtons.forEach(function(button){
         else{
                 selectedPlan.textContent = `Opción seleccionada: ${planName}`;
         }
-        
+        if (treatmentSelect) {
+         treatmentSelect.value = planName;}
+      document.getElementById("contact").scrollIntoView ({
+       behavior: "smooth"
+      });
+     
     });
 });
 
 //File Upload in message
 const uploadFile = document.getElementById("uploadFile");
-const nameFile = document/getElementById("nameFile");
+const nameFile = document.getElementById("nameFile");
 
 uploadFile.addEventListener("change", function(){
     if (uploadFile.files.length > 0) {

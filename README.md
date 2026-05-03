@@ -28,7 +28,7 @@ Based on Feedback of Previous deliver Landing Page, improvement were made to thi
 
 -Responsiveness - Bootstrap  and custom css media queries to enhance adaptation across devices.
 
-- Prototyping tool was planned using Justinmind, to structure layout, section, color and user flow in order to code.
+- Prototyping tool was planned using Mockup, to structure layout, section, color and user flow in order to code.
 
 -Tech employed:
     - HTML5

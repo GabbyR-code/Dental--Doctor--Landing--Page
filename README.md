@@ -65,7 +65,7 @@ Testing to assure functionality, responsiveness and compatibility across device 
         -Required field validation, receives submission, confirmation message display, email notification receive,file upload demo and dental record link.
     -Performance and visual testing images loads without distortion, page scroll smooth, hover and interactive effect work and no layout breaking.
     
-    - Limitations  like file upload demo, real medical data storage secure backed system and real whatsApp number.
+    - Limitations  like file upload demo, real medical data storage secure backed system and real whatsApp number.Also for this project fictitious doctor was create and image obtain online with free use right.
     
 Main Development Challenges and  Solutions
  - Static Website Limitation the previous project I did was to basic, enhance with JavaScript and more complete form section.

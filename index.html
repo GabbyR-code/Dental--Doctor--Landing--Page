@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang = "en" id="htmlTag">
+<head>
+    <!--Basic setup and Website detail for engine share-->
+    <meta charset = "UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Website for dental tourism smile design and aesthetic rehabilitation. "/>
+    <title> Dra.Jane Doe| Smile Design and Aesthetic Rehabilitation Clinic </title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css"/>
+
+    <!-- Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!--Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+ <!-- Navigation Bar(nav)-->
+ <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+    <div class="container">
+        <a class="navbar-brand" href="="#home">Dra.Jane</a>
+        <!--Menu mobile button-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about" data-en="About" data-es="Sobre mi"> About</a>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#services" data-en="Services" data-es="Servicios"> Services</a>
+                    
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#gallery" data-en="Results" data-es="Resultados"> Results</a>
+                    
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#process" data-en="Process" data-es="Proceso"> Process</a>
+                    
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#faq" data-en="FAQ" data-es="Preguntas"> FAQ</a>
+                    
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#contact" data-en="Evaluation" data-es="Evaluaciòn"> Evaluation</a>
+                    
+                </li>
+            </ul>
+            <!--Toogle language feature-->
+            <button id="languageBtn" class="language-btn">ES</button>
+        </div>
+    </div>
+ </nav>
+
+ <!-- Header section-->
+ <header id="home" class="banner-section">
+    <div class="container">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+                <p class="section-tag" data-en="Smile Design • Aesthetic Rehabilitation" data-es="Diseño de Sonrisa • Rehabilitacion Estetica">Smile Design • Aesthetic Rehabilitation 
+                </p>
+                <h1 data-en="Harmony, Function & Aesthetics" data-es="Armonía, Función y Estética">Harmony, Function & Aesthetics</h1>
+                <p class="hero-text" data-en="Dental care for patient seeking aesthetic rehabilitation, smile design and personalized treatment plan." data-es="Atención dental para pacientes que buscan rehabilitación estética, diseño de sonrisa y planificación personalizada">Dental care for patient seeking aesthetic rehabilitation, smile design and personalized treatment plan.</p>
+                <div class="d-flex flex-wrap gap-3">
+                    <a href="#contact" class="btn btn-brand" data-en="Request Evaluation" data-es="Solicitar Evaluación"> Request Evaluation</a>
+                    <a href="#services" class="btn btn-custom-outline" data-en="View Services" data-es="Ver Servicios">View Services</a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="banner-card">
+                    <img src="images/doctor.jpg" alt="portrait of dentist" class="img-fluid rounded-4">
+                    
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+ </header>
+
+  <!--About Me Section-->
+ <section id="about" class="section">
+    <div class="container">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-5">
+                <img src="images/Clinic.jpg" alt="Modern dental work area"class="img-fluid rounded-4 shadow-soft">
+            </div>
+            <div class="col-lg-7">
+                <p class="section-tag" data-en="About Me" data-es="Sobre mi">About Me</p>
+                <h2 data-en="A Personal Approach to Aesthetic Dentistry" data-es="Un Enfoque Personal para la Odontologia Estética">A Personal Approach to Aesthetic Dentistry</h2>
+                <p data-en="Dra. Jane specializes in aesthetic rehabilitation and smile design.Her approach combines facial harmony, dental function and natural beauty to create confident smiles." data-es="La Dra.Jane se especializa en rehabilitación estética y diseño de sonrisa.Su enfoque combina armonía facial, función dental y belleza natual para crear sonrisas seguras.">Dra. Jane specializes in aesthetic rehabilitation and smile design.Her approach combines facial harmony, dental function and natural beauty to create confident smiles</p>
+                <div class="info-grid">
+                    <div>
+                        <h4>10+</h4>
+                        <p data-en="Years of experience" data-es="Años de experiencia">Years of experience</p>
+                    </div>
+
+                    <div>
+                        <h4> EN/ES</h4>
+                        <p data-en="Bilingual Support" data-es=" Soporte bilingüe">Bilingual Support</p>
+                    </div>
+                    <div> 
+                        <h4> 100%</h4>
+                        <p data-en="Personalized planning" data-es=" Planificación personalizada">Personalized planning</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+ <!--Service Section-->
+ <section id="services" class="section section-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <p class="section-tag" data-en=" Signature Service" data-es="Servicios Principales">Signature Service</p>
+            <h2 data-en="Premium treatments for patients" data-es="Tratamiento premium para pacieintes">Premium treatments for patients</h2>
+        </div>
+        <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <i class="bi bi-emoji-smile"></i>
+                        <h3 data-en="Smile Design" data-es="Diseño de Sonrisa">Smile Design</h3>
+                        <p data-en="<Digital planning focused on facial harmony and natural looking results." data-es="Planificación digital enfocada en armonia facial y resultados naturales.">Digital planning focused on facial harmony and natural looking results.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <i class="bi bi-gem"></i>
+                        <h3 data-en="Veneers" data-es="Carillas">Veneers</h3>
+                        <p data-en="Aesthetic solutions to improve shape, color, balance and symentry." data-es="Soluciones estéticas para mejorar la forma, el color balance y simetría.">Aesthetic solutions to improve shape, color, balance and symentry.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <i class="bi bi-heart-pulse"></i>
+                        <h3 data-en="Aesthetic Rehabilitation" data-es="Rehabulitación Estética">Aesthetic Rehabilitation </h3>
+                        <p data-en="Restoring dental function while improving appearance." data-es="Restauración de la función dental mientras se mjora la apariencia.">Restoring dental function while improving appearance.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <i class="bi bi-shield-check"></i>
+                        <h3 data-en="Crowns & Implants" data-es="Coronas e Implantes"> Crowns & Implants</h3>
+                        <P data-en="Restorative options for long-term function and aesthetics." data-es="Opciones restaurativas para función y estética a largo plazo.">Restorative options for long-term function and aesthetics.</P>
+                    </div>
+                </div>
+        </div>
+    </div>
+ </section>
+
+ <!--Plans Treatment Options Section-->
+ <section class="section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <p class="section-tag" data-en="Treatment Options" data-es="Opciones de Tratamiento">Treatment Options</p>
+            <h2 data-en="Choose your evaluation path"data-es="Elige tu tipo de evaluación">Choose your Evaluation Path</h2>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="plan-card">
+                    <h3 data-en="Virtual Evaluation" data-es="Evaluación Virtual">
+                        Virtual Evaluation
+                    </h3>
+                    <p data-en="Send photos, X-rays or notes for an initial review." data-es="Envía fotos, radiografias o notas para una revisión inicial">Send photos, X-rays or notes for an initial review.</p>
+                    <button class="btn btn-plan" type="button" data-plan"="Virtual Evaluation">Select</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="plan-card featured">
+                    <h3 data-en="Smile Design Plan" data-es="Plan Diseño de Sonrisa">
+                        Smile Design Plan
+                    </h3>
+                    <p data-en="For patients interested in veneers, smile balance and symetry and aesthetic improvements." data-es="Para pacientes interesados en carillas, equilibrio y simetrìa y mejora estética.">For patients interested in veneers, smile balance and symetry and aesthetic improvements.</p>
+                    <button class="btn btn-plan" type="button" data-plan="Smile Design Plan">Select</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="plan-card">
+                    <h3 data-en="Full Rehabilitation" data-es="Rehabilitación Completa">
+                    Full Rehabilitation
+                    </h3>
+                    <p data-en="For complex cases involving function, implants, crown or multiple restorations." data-es="Para casos complejos con función, implantes, corones o múltiples restauraciones.">For complex cases involving function, implants, crown or multiple restorations.</p>
+                    <button class="btn btn-plan" type="button" data-plan="Full Rehanilitation">Select</button>
+                </div>
+            </div>
+        </div>
+        
+        <!--JS wrtie selected option-->
+        <p id="selectedPlan" class="selected-plan text-center mt-4"></p>
+    </div>
+ </section>
+
+ <!-- Galleey Section-->
+ <section id="gallery" class="section section-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <p class="section-tag" data-en="Smile Transformation" data-es="Transformaciones de Sonrisa">Smile Transformation</p>
+            <h2 data-en="Before & After Gallery" data-es=" Galeria antes y Después">Before & After Gallery</h2>
+        </div>
+        <div class = "row g-4">
+            <div class="col-md-6">
+                <div class="gallery-card">
+                    <img src="images/Smile 2.jpg" alt="Smile Design before and after example" class="img-fluid">
+                    <p data-en="Smile Design Example" data-es="Ejemplo de Diseño de Sonrisa">Smile Design before and after Example</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="gallery-card">
+                    <img src="images/Smile 1.jpg" alt="Aesthetic rehabilitation before and after example" class="img-fluid">
+                    <p data-en="Aesthetic Rehabilitation Example" data-es="Ejemplo de Rehabilitación Estetica">Aesthetic rehabilitation Example</p>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+
+ <!--Process Section-->
+ <section id="process" class="section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <p class= "section-tag" data-en="Patient Journey" data-es="Proceso del Paciente">Patient Journey </p>
+            <h2 data-en="How Does your Dental Process Works?" data-es="Como Functiona tu Proceso dental?">How Does your Dental Process Works?</h2>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-3">
+                <div class="step-card">
+                    <span>01</span>
+                    <h3 data-en="Send Records" data-es="Envía Record">Send Records</h3>
+                    <p data-en="Submit phots, X-rays, or a Google Drive link" data-es=" Envía fots, radiografias o un enalce de Google Drive">Submit phots, X-rays, or a Google Drive link.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="step-card">
+                    <span>02</span>
+                    <h3 data-en="Receive Plan" data-es="Recibe tu Plan">Send Records</h3>
+                    <p data-en="Get a preliminary treatmetn recommendation." data-es=" Recibe una recomendación preliminar de tratamiento.">Get a preliminary treatmetn recommendation.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="step-card">
+                    <span>03</span>
+                    <h3 data-en="Travel Support" data-es="Apoyo de Vieje">Travel Support</h3>
+                    <p data-en="Receive guiadance for appoiments, stay and recovery time." data-es=" Recibe orientación para citas, estadía t recuperación">Receive guiadance for appoiments, stay and recovery time.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="step-card">
+                    <span>04</span>
+                    <h3 data-en="Treatent" data-es="Tratamiento">Treatment</h3>
+                    <p data-en="Complete your dental care with professional follow-up." data-es=" Completa tu tratamiento dental con seguimiento professional">Complete your dental care with professional follow-up.</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+ </section>
+ <!--FAQ Section-->
+ <section id="faq" class="section section-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <p class="section-tag">FAQ</p>
+            <h2 data-en="Frequently Asked Questions" data-es=" Preguntas Frecuentes">
+                Frequently Asked Question
+            </h2>
+        </div>
+        <div class="faq-box">
+            <div class="faq-item" >
+                <button class="faq-question" type="button"type="button" data-en="Can I receive an evaluation before traveling?" data-es="Puedo recibir una evaluación antes de viajar">Can I receive an evaluation before traveling?</button>
+                <p class="faq-response" data-en="Yes.You can send phots, X-rays, ora Google Drive link for an initial review." data-es="Si.Puedes enviar fotos, radiografias o un enalce de Google Drive para revisión inicial.">Yes.You can send phots, X-rays, ora Google Drive link for an initial review.</p>
+            </div>
+            <div class="faq-item" >
+                <button class="faq-question" type="button"type="button" data-en="Can I upload dental records?" data-es="Puedo subir records dentales?">Can I upload dental records?</button>
+                <p class="faq-response" data-en="For this demo, patients can paste a Google Drive link and use the upload field as a visual interface example." data-es="Para esta demostración, los pacientes pueden pegan un enlance de Google Drive y usar el campo de carga como ejemplo visual de interfaz.">For this demo, patients can paste a Google Drive link and use the upload field as a visual interface example.</p>
+            </div>
+            <div class="faq-item" >
+                <button class="faq-question" type="button"type="button" data-en="How long should I stay?" data-es="Cuánto tiempo debo quedarme?">How long should I stay?</button>
+                <p class="faq-response" data-en="It depends on the treatment.Simple treatment may require a few days, while full rehabilitation may need more time." data-es="Depende del tratamiento.Casos simples pueden requerir pocos dias, mientras una rehabilitación completa puede necesitar más tiempo.">It depends on the treatment.Simple treatment may require a few days, while full rehabilitation may need more time</p>
+            </div>
+        </div>
+    </div>
+ </section>
+
+ <!--Online Contact/Evaluation Form-->
+ <section id="contact" class="section contact-section">
+    <div container">
+        <div class="row g-5">
+            <!--contact-->
+            <div class="col-lg-5">
+                <p class="section-tag" data-en="Online Evaluation Tool" data-es="Herramienta de Evaluación en Línea">
+                    Online Evaluation Tool
+                </p>
+                <h2 data-en="Start your smile journey" data-es=" Comienza la Transformación de tu Sonrisa">Start your Smile Journey</h2>
+                <p data-en="Complete the form to request a personalized treatment evaluation.The website employ Formspree to receive form submissions." data-es="Completa el formulario para solicitar una evaluación personalizada.Esta pagina utiliza Formspree para recibir los formularios.">Complete the form to request a personalized treatment evaluation.The website employ Formspree to receive form submissions.</p>
+                <a class="btn btn-whatsapp" target="_blank" href="https://wa.links/0000"><i class="bi bi-wharsapp"></i> WhatsApp</a>
+            </div>
+            <!--Formspree form-->
+            <div class="col-lg-7">
+                <form class="contact-form"action="https://formspree.io/f/mnjwjzyk" method="POST">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                         <label for=" Name" data-en="Name" data-es="Nombre">Name</label>
+                         <input id="name" name="name"type="text"class="form-control" required>
+                        </div>
+                        <div class="col-md-6">
+                         <label for=" email" data-en="Email" data-es="Correo Electronico">Email</label>
+                         <input id="email" name="email"type="email"class="form-control" required>
+                        </div>
+                        <div class="col-md-6">
+                         <label for=" country" data-en="Country" data-es="Pais">Country</label>
+                         <input id="name" name="country" type="text"class="form-control" required>
+                        </div>
+                        <div class="col-md-6">
+                         <label for="language" data-en="Preferred Language" data-es="Idioma Preferido ">Preferred Language</label>
+                         <select id="language" name="preferred_language"type="form-select">
+                            <option>English</option>
+                            <option>Spanish</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                         <label for="treatment" data-en="Treatment Interest" data-es="Tratamiento de Interés">Treatment Interest</label>
+                         <select id="treatment" name="treatment_interest"type="form-select">
+                            <option>Smile Design</option>
+                            <option>Veneers</option>
+                            <option>Aesthetic Rehabilitation</option>
+                            <option>Crowns / Implants</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                         <label for="travel" data-en="Estimated Travel Date" data-es="Fecha Estimada de Viaje">Estimated Travel Date</label>
+                         <input id="travel" name="estimated_travel_date"type="month" class="form-control">
+                        </div>
+
+                        <!--Safeoption of file for static website-->
+                        <div class="col-12">
+                         <label for="records" data-en="Dental Records Link" data-es="Enlace de Registros Dentales">Dental Records Link</label>
+                         <input id="records" name="dental_records_link"type="url" class="form-control" placeholder="Google Drive / Dropbox link ">
+                        </div>
+
+                        <!--Demo  uploadfield for interface realism-->
+                        <div class="col-12">
+                         <label for="uploadFile" data-en="Upload Dental Rcord(Demo Only)" data-es="Subir Registros Dentales (Solo Demos)">Upload Dental Rcord(Demo Only)</label>
+                         <input id="uploadFile" type="file" class="form-control">
+                         <p id="nameFile"class="form-message"></p>
+                        </div>
+                        <div class="col-12">
+                         <label for="message" data-en="Message" data-es="Mensaje">Message</label>
+                         <textarea id="message" name="message" class="form-control" rows="4" aria-placeholder="Tell us about your case"></textarea>
+                        </div>
+                        <!--Email subject sent to Formspree-->
+                        <input type="hidden" name="_subject" value="New Dental Evaluation Request">
+                        <input type="text"name="-gotcha" style="display: none;">
+
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-brand w-100" data-en="Submit Evaluation Request" data-es="Enviar Solicitud de Evaluación">Submit Evaluation Request</button>
+                        </div>
+                        <!--JS display response message here -->
+                        <p id="formMessage" class="form-message"></p>
+                        <p class="form-note" data-en="Note - This is a project assigment for the univesity.Do not upload private medical recors unless a secure system is available" data-es="Nota - este es un projecto de clase para la universidad, no subir registros medicos privados si no existe un sistema seguro.">Note - This is a project assigment for the univesity.Do not upload private medical recors unless a secure system is available</p>       
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+ </section>
+
+
+    <!--Footer Section-->
+    <footer >
+        <p> © 2026 Dra.Jane Doe Smile Clinic - Concept Project by Gabriela Rosario for educational purposes. </p>
+    </footer>
+    <!--Bootstrap and custom Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
